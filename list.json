@@ -1,0 +1,106 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day"],
+         "responses": ["Hello,! thanks for asking,what help do you want?", "Good to see you again, How can i hlp you?", "Hi there, how can I help?"],
+         "context": [""]
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+         "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+         "context": [""]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"],
+         "context": [""]
+        },
+        {"tag": "noanswer",
+         "patterns": [],
+         "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"],
+         "context": [""]
+        },
+        {"tag": "options",
+         "patterns": ["How you could help me?", "What you can do?", "What help you provide?", "How you can be helpful?", "What support is offered"],
+         "responses": ["I can help you in searching library book, tell you about book issuing time,deadline of returning book and many more.Don't waste your time just ask me"],
+         "context": [""]
+        },
+        {"tag": "book_avail",
+         "patterns": ["what are the books that are available currently", "show me some book", "let me have some book", "what book do you have", "please show me book available in library" ,"How many books are available in the library?"],
+         "responses": ["There are books of different branches. According to your branch you can get whatever book you want"],
+         "context": [""]
+        },
+    {"tag": "search_thesis",
+         "patterns": ["How to get thesis/dissertation done by scholar","Study material of masters or doctoral","Where i can get research paper?","All about thesis/dissertation"],
+         "responses": ["You can get Thesis/dissertation by loginng to UMS -> UMS Navigation -> Library Management System -> Thesis/Dissertion Menu "],
+                                    
+         "context": [""]
+        },
+        {"tag": "time",
+         "patterns": ["Last time","when library is closed","When do Library Close?","Library open timing"],
+         "responses": ["The Library is open 24*7 for you..."],
+         "context": [""]
+        },
+        {"tag": "due",
+         "patterns": ["What is the fine when book is not submitted on time?", "Tell about late submission of book", "Late charge on book", "fine on late submission", "overdue fine","what if i am unable to return the book on time" ,"what if i will not return the book in library on time?"],
+         "responses": ["If book is overdue then a fine of Rs 10 will be charged per day."],
+         "context": [" "]
+        },
+        {"tag": "eresource",
+         "patterns": ["How can i get e-resource of library","downloadable material"],
+         "responses": ["You can visit the following link : http://ezproxy.lpu.in/login .Login using Your registration number and password and you can use e-esource?"],
+         "context": [""]
+        },
+    {"tag": "issue_time",
+         "patterns": ["When we can issue the book","What is the timing of issuing book from library","tell me when i can take book from library"],
+         "responses": ["You can issue book from library after 9 A.M. onward","After 9 A.M. you can come to library for issuing the book"],
+         "context": [""]
+        },
+    
+    {"tag": "discussion_room",
+         "patterns": ["I want to avail discussion room","How can anyone book discussion room of library ","Procedure to book discussion room","processes of booking discusion room"],
+         "responses": ["You can book discussion room of library through UMS. These are the step you need to follow : Login to UMS -> UMS Navigation -> Library Management System -> Discussion Room Booking "],
+                                    
+         "context": [""]
+        },
+    {"tag": "search_book",
+         "patterns": ["How to search book in library","How to know whether book is present of not in library","avaailability of particular book in library","Where book is in library"],
+         "responses": ["Book in the library can be searched by loginng to UMS -> UMS Navigation -> Library Management System -> Library Search "],                              
+         "context": [""]
+        },
+    {"tag": "library_loc",
+         "patterns": ["Where is library located?","place where library is","destination of library","In which block library is"],
+         "responses": ["Library is located in 36 block, opposite of 28 block, Any thing more that i can help you with."],                              
+         "context": [""]
+        },
+    {"tag": "book_issue",
+         "patterns": ["How many book can a borrow in one time?","Number of books that i can take from library ","How many book can i ssue from library"],
+         "responses": ["You can issue maximum of 3 books at a time."],
+                                    
+         "context": [""]
+        },
+   
+    {"tag": "lost_book",
+         "patterns": ["What if i lost library book?","I have lost the book that i borrowed from library","lost book issued from library"],
+         "responses": ["You have two options if you lost the book of library 1. if you want you can give the book to library by purchasing it from the market. In case it is not there in market then you can pay the price of book to the library incharge with extra Rs 100 as fine "],
+   "context": [""]
+        },
+    {"tag": "day",
+         "patterns": ["for how many day i can issue book from library","what is the maximum time for which i can issue book"],
+         "responses": ["Book can be issued for 7 days","Book can be borrowed for 7 days."],                           
+         "context": [""]
+        },
+    {"tag": "day_limit",
+         "patterns": ["after how many days books should be returned","Time limit of returning the book"],
+         "responses": ["Book should be returned within 7 days"],
+                                    
+         "context": [""]
+        },
+     {"tag": "purchase",
+         "patterns": ["Can i purchase book from library","can i buy book from library","If i found an intresting book from library and it is not there in market. Can i purchase it from library"],
+         "responses": ["No, not at all"],
+                                    
+         "context": [""]
+        }
+   ]
+
+}
