@@ -1,6 +1,6 @@
 # Librarychatbot
 
-  ![](https://github.com/sutharp777/Librarychatbot/blob/master/logs/robot_in_library-1560482997.jpg)
+  ![](https://github.com/sutharp777/Librarychatbot/blob/master/logs/logo.png)
 
 This is the project on university chabot for library services which is made using natural language processing.
 
