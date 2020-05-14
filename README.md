@@ -1,6 +1,6 @@
 # Library Chat Bot
 
-  ![](https://github.com/sutharp777/Librarychatbot/blob/master/logs/log.png)
+  ![](https://github.com/sutharp777/Librarychatbot/blob/master/logs/logo.png)
 
 ##### This library chabot service use natural language processing for answering query.
 
